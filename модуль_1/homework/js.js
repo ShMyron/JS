@@ -1,11 +1,10 @@
 'use strict';
 const adminPassword = 'm4ngo1zh4ackz0r';
 const adminLogin = 'admin';
-const userName = prompt('Введите ваше имя');
-const userPassword = prompt('Введите ваш пароль');
-console.log(userPassword);
+
+let userName = prompt('Введите ваше имя');
 if 	(userName === adminLogin){
-  console.log(userName);
+  let userPassword = prompt('Введите ваш пароль');
   	if(userPassword === adminPassword){
   		alert('Добро пожаловать!');
   	}else{
